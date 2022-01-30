@@ -23,16 +23,17 @@
      		});
 </script> 
 <script>
-    		AFRAME.registerComponent('click-play', {
-  		init: function () {
+      		window.addEventListener('click', function () {
       		var v = document.querySelector('#higashi2');
-    		this.el.addEventListener('mouseup', function (event) {
-    		//クリック時の処理
-                 v.play();
-        	    		});
-  		}
-		});
-</script>	
+      		v.play();
+     		});
+</script> 
+	  <script>
+      		window.addEventListener('click', function () {
+      		var v = document.querySelector('#higashi3');
+      		v.play();
+     		});
+</script> 
 
 
     <link rel="manifest" href="manifest.webmanifest">
@@ -68,7 +69,7 @@
         <div>
           <h2>ご卒業おめでとうございます</h2>
           <p>輝かしい未来に <br>
-          Let's Dance <b>HTC Vive</b> or <b>Oculus Rift</b> you will able to record and upload <br>your dance to <b>share it with everybody!</b> (<a href="https://www.mozilla.org/privacy/">privacy</a> and <a href="https://www.mozilla.org/privacy/websites/#cookies">cookies</a> policy)</a></p>
+          Let's Dance <b>!!  </b> or <b>Oculus Rift</b> you will able to record and upload <br>your dance to <b>share it with everybody!</b> (<a href="https://www.mozilla.org/privacy/">privacy</a> and <a href="https://www.mozilla.org/privacy/websites/#cookies">cookies</a> policy)</a></p>
           <p>
             <a href="https://blog.mozvr.com/a-saturday-night/">Read more</a>
           </p>
