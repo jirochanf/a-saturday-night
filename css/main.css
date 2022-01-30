@@ -211,6 +211,14 @@ body {
   margin: 20px 30px;
 }
 
+.watermark2{
+  position: absolute;
+    left: 50%;
+  z-index: 999;
+  width: 300px;
+  margin: 20px 30px;
+}
+
 #gif-ui {
   position: absolute;
   left: 0;
