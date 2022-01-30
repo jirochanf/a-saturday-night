@@ -213,7 +213,7 @@ body {
 
 .watermark2{
   position: absolute;
-    left: 50%;
+    left: 40%;
   z-index: 999;
   width: 300px;
   margin: 20px 30px;
