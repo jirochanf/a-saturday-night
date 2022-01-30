@@ -22,7 +22,17 @@
       		v.play();
      		});
 </script> 
-
+<script>
+    		AFRAME.registerComponent('click-play', {
+  		init: function () {
+      		var v = document.querySelector('#higashi2');
+    		this.el.addEventListener('mouseup', function (event) {
+    		//クリック時の処理
+                 v.play();
+        	    		});
+  		}
+		});
+</script>	
 
 
     <link rel="manifest" href="manifest.webmanifest">
@@ -229,7 +239,7 @@
 </a-assets>  
 
       <a-image src="assets/uwajima_east.png" position="0 0 0" rotation="10 0 0"></a-image>
-      <a-video src="#higashi" click-play position="0 2 -1" rotation="10 0 0"></a-video>
+      <a-video src="#higashi"  position="0 2 -1" rotation="10 0 0"></a-video>
       <a-video src="#higashi2" click-play position="-3.5 1.8 -1.5" rotation="15 65 0"></a-video>
       <a-video src="#higashi3" click-play position="3.5 1.8 -1.5" rotation="15 -65 0"></a-video>
       
