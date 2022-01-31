@@ -206,7 +206,7 @@ body {
 
 .watermark{
   position: absolute;
-  z-index: 300;
+  z-index: 10;
   width: 300px;
   margin: 20px 30px;
 }
